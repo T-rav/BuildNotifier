@@ -1,0 +1,20 @@
+﻿TFS Build Notifier
+
+
+winexe
+C#
+.cs
+C:\Systems\VettingProject\Projects\TfsBuildNotifier\TfsBuildNotifer\obj\Debug\
+TfsBuildNotifier
+none
+false
+DEBUG;TRACE
+C:\Systems\VettingProject\Projects\TfsBuildNotifier\TfsBuildNotifer\App.xaml
+21359581936
+31011260311
+21264274384
+161965725612
+MainWindow.xaml;NotifyIconResources.xaml;
+
+False
+

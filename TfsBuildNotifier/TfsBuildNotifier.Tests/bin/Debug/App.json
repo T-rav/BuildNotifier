@@ -1,0 +1,5 @@
+﻿{
+  "buildIdProviderUrl": "http://tfs/buildNotifier/builds.v2.json",
+  "buildStatusProviderUrlTemplate": "http://tfs:8080/tfs/DefaultCollection/Vetting/_apis/build/builds?definitions={0}&statusFilter=completed&$top=1&api-version=2.0",
+  "pollIntervalInMinutes" :  "15"
+}

@@ -1,0 +1,20 @@
+﻿Windowless Sample
+
+
+winexe
+C#
+.cs
+C:\Systems\VettingProject\TfsBuildNotifier\TfsTrayNoticiation\obj\Debug\
+Windowless_Sample
+none
+false
+DEBUG;TRACE
+C:\Systems\VettingProject\TfsBuildNotifier\TfsTrayNoticiation\App.xaml
+21359581936
+
+5-207200278
+132003653947
+MainWindow.xaml;NotifyIconResources.xaml;
+
+True
+

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsBuildNotifier", "TfsBuildNotifer\TfsBuildNotifier.csproj", "{964EBFBE-A600-49B2-BDD8-422B46F1D544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsBuildNotifier.Tests", "TfsBuildNotifier.Tests\TfsBuildNotifier.Tests.csproj", "{F9A57861-4F77-432C-A146-DBF74CBDE2E8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TfsNotifierInstaller", "TfsNotifierInstaller\TfsNotifierInstaller.vdproj", "{1EFC11CA-E222-4D95-8D2A-C3C60EB015A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{964EBFBE-A600-49B2-BDD8-422B46F1D544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964EBFBE-A600-49B2-BDD8-422B46F1D544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964EBFBE-A600-49B2-BDD8-422B46F1D544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964EBFBE-A600-49B2-BDD8-422B46F1D544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A57861-4F77-432C-A146-DBF74CBDE2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A57861-4F77-432C-A146-DBF74CBDE2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A57861-4F77-432C-A146-DBF74CBDE2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A57861-4F77-432C-A146-DBF74CBDE2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFC11CA-E222-4D95-8D2A-C3C60EB015A9}.Debug|Any CPU.ActiveCfg = Debug
+		{1EFC11CA-E222-4D95-8D2A-C3C60EB015A9}.Debug|Any CPU.Build.0 = Debug
+		{1EFC11CA-E222-4D95-8D2A-C3C60EB015A9}.Release|Any CPU.ActiveCfg = Release
+		{1EFC11CA-E222-4D95-8D2A-C3C60EB015A9}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

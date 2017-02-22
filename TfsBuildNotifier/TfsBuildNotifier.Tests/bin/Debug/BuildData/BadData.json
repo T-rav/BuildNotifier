@@ -1,0 +1,94 @@
+﻿{
+  "count": 1,
+  "value": [
+    
+    {
+      "_links": {
+        "self": { "href": "http://tfs:8080/tfs/DefaultCollection/c35c723f-14fc-4cf8-a8cb-84c083c3b246/_apis/build/Builds/633" },
+        "web": { "href": "http://tfs:8080/tfs/_permalink/_build/index?collectionId=9c903809-f4af-417e-80f8-730c964dd3c7&projectId=c35c723f-14fc-4cf8-a8cb-84c083c3b246&buildId=633" },
+        "timeline": { "href": "http://tfs:8080/tfs/DefaultCollection/c35c723f-14fc-4cf8-a8cb-84c083c3b246/_apis/build/builds/633/Timeline" }
+      },
+      "id": 633,
+      "url": "http://tfs:8080/tfs/DefaultCollection/c35c723f-14fc-4cf8-a8cb-84c083c3b246/_apis/build/Builds/633",
+      "definition": {
+        "type": "build",
+        "revision": 25,
+        "id": 9999,
+        "name": "All Solutions",
+        "url": "http://tfs:8080/tfs/DefaultCollection/c35c723f-14fc-4cf8-a8cb-84c083c3b246/_apis/build/Definitions/2",
+        "project": {
+          "id": "c35c723f-14fc-4cf8-a8cb-84c083c3b246",
+          "name": "Vetting",
+          "description": "The Vetting Project",
+          "url": "http://tfs:8080/tfs/DefaultCollection/_apis/projects/c35c723f-14fc-4cf8-a8cb-84c083c3b246",
+          "state": "wellFormed",
+          "revision": 24
+        }
+      },
+      "buildNumber": "20160228.1",
+      "buildNumberRevision": 1,
+      "project": {
+        "id": "c35c723f-14fc-4cf8-a8cb-84c083c3b246",
+        "name": "Vetting",
+        "description": "The Vetting Project",
+        "url": "http://tfs:8080/tfs/DefaultCollection/_apis/projects/c35c723f-14fc-4cf8-a8cb-84c083c3b246",
+        "state": "wellFormed",
+        "revision": 24
+      },
+      "uri": "vstfs:///Build/Build/633",
+      "sourceBranch": "refs/heads/master",
+      "sourceVersion": "b89d1bd8641488511efd77d3f72dacb86d0c0f2c",
+      "status": "completed",
+      "queue": {
+        "pool": {
+          "id": 1,
+          "name": "Default"
+        },
+        "id": 1,
+        "name": "Default"
+      },
+      "queueTime": "2016-02-28T17:15:29.0708982Z",
+      "priority": "normal",
+      "startTime": "2016-02-28T17:15:29.9302653Z",
+      "finishTime": "2016-02-28T17:59:39.4975436Z",
+      "reason": "manual",
+      "result": "failed",
+      "requestedFor": {
+        "id": "f55790a8-4f10-4fe2-b72c-f8094e8b3e81",
+        "displayName": "Trav",
+        "uniqueName": "MANGAM\\VET5",
+        "url": "http://tfs:8080/tfs/DefaultCollection/_apis/Identities/f55790a8-4f10-4fe2-b72c-f8094e8b3e81",
+        "imageUrl": "http://tfs:8080/tfs/DefaultCollection/_api/_common/identityImage?id=f55790a8-4f10-4fe2-b72c-f8094e8b3e81"
+      },
+      "requestedBy": {
+        "id": "f55790a8-4f10-4fe2-b72c-f8094e8b3e81",
+        "displayName": "Trav",
+        "uniqueName": "MANGAM\\VET5",
+        "url": "http://tfs:8080/tfs/DefaultCollection/_apis/Identities/f55790a8-4f10-4fe2-b72c-f8094e8b3e81",
+        "imageUrl": "http://tfs:8080/tfs/DefaultCollection/_api/_common/identityImage?id=f55790a8-4f10-4fe2-b72c-f8094e8b3e81"
+      },
+      "lastChangedDate": "2016-02-28T17:59:39.553Z",
+      "lastChangedBy": {
+        "id": "80c7778a-ffb7-4ff1-b731-c0581d82ada2",
+        "displayName": "[DefaultCollection]\\Project Collection Service Accounts",
+        "uniqueName": "vstfs:///Framework/IdentityDomain/9c903809-f4af-417e-80f8-730c964dd3c7\\Project Collection Service Accounts",
+        "url": "http://tfs:8080/tfs/DefaultCollection/_apis/Identities/80c7778a-ffb7-4ff1-b731-c0581d82ada2",
+        "imageUrl": "http://tfs:8080/tfs/DefaultCollection/_api/_common/identityImage?id=80c7778a-ffb7-4ff1-b731-c0581d82ada2",
+        "isContainer": true
+      },
+      "parameters": "{\"BuildConfiguration\":\"debug\",\"BuildPlatform\":\"any cpu\"}",
+      "orchestrationPlan": { "planId": "50eb2ef0-30ce-4a1b-928a-f11725a8fddf" },
+      "logs": {
+        "id": 0,
+        "type": "Container",
+        "url": "http://tfs:8080/tfs/DefaultCollection/c35c723f-14fc-4cf8-a8cb-84c083c3b246/_apis/build/builds/633/logs"
+      },
+      "repository": {
+        "id": "980ba64e-6dc3-403d-b909-e25f7aa2d1d6",
+        "type": "TfsGit",
+        "clean": null,
+        "checkoutSubmodules": false
+      },
+      "keepForever": false
+    }
+  ]}
